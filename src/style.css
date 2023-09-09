@@ -1,11 +1,25 @@
+body {
+    background-color: #212121;
+    
+} 
 h1 {
 font-family: 'Roboto', sans-serif;
-
+font-size: 72px;
 }
+h2 {
+    font-size: 18px;
+}
+h1,h2,h3,p, a  {
+
+    color: #fff  !important;
+}
+
 p {
     font-family:'Dancing Script', cursive;
-    font-size: 26px;
+    font-size: 18px;
+    columns: #fff;
 }
-i {
-    font-size: 30px;
+.hero {
+    padding: 100px;
+    text-align: center;
 }
