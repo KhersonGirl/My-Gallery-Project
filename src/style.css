@@ -1,5 +1,5 @@
 body {
-    background: #464242;
+    background: #202020;
 }
 h1 {
 font-family: 'Roboto', sans-serif;
@@ -10,14 +10,15 @@ h2 {
 }
 h1,h2,h3,p, a  {
     margin: 10px;
-  color: #fff !important; 
-  text-align: center;
+    color: #fff !important; 
+    text-align: center;
 }
 
 p {
     font-family:'Dancing Script', cursive;
     font-size: 20px;
     columns: #fff;
+    line-height: 1.5;
 }
 img {
     border-radius: 10px;
@@ -36,4 +37,21 @@ img {
 }
 .img-connection {
     max-width: 75%;
+}
+.navigation-link {
+    display: block;
+    margin: 30px auto;
+    border: solid 1px #fff;
+    border-radius: 10px; 
+    padding: 10px;
+    max-width: 50%;
+
+}
+.navigation-link:hover {
+    background: gray;
+}
+@media (max-width:500px) {
+    h1 {
+        font-size: 46px;
+    }
 }
