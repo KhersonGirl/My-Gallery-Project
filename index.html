@@ -4,64 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery Homepage</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3ddf73ebd1.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="src/style.css">
-    <title>My Gallery Homepage</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Khanian Nataliia</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">My gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Contact</a>
-                        </li>
-                    </ul>
+            <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Khanian Nataliia</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">My gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+
+            <div class="hero">
+
+                <h2>
+                    Khanina Nataliia
+                </h2>
+                <h1>
+                    Soul Paintings
+                </h1>
+                <p>
+                    I am an artis from Ukraine and i would like to present to you my fantastic energy soul-paintings
+                    from differnt dimentions
+                </p>
+
+                <a href="#" class="btn btn-branding start-link" title="To my gallery">Get started</a>
             </div>
-        </nav>
-
-        <div class="hero">
-
-            <h2>
-                Khanina Nataliia
-            </h2>
-            <h1>
-                Soul Paintings
-            </h1>
-            <p>
-                I am an artis from Ukraine and i would like to present to you my fantastic energy soul-paintings from differnt dimentions
-            </p>
-
-            <a href="#" class="btn btn-branding start-link" title="To my gallery">Get started</a>
-        </div>
         </div>
     </header>
     <section>
@@ -69,14 +74,16 @@
         <div class="container-md">
             <div class="row">
                 <div class="col-sm-6 mt-5">
-                    <img class="img-fluid  img-earth d-none d-sm-block" src="/src/images/soul-earth.jpg" alt="Soul-of-Earth">
+                    <img class="img-fluid  img-earth d-none d-sm-block" src="/src/images/soul-earth.jpg"
+                        alt="Soul-of-Earth">
                 </div>
                 <div class="col-sm-6 mt-5">
                     <h2>The soul of Earth</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nam corporis dolore excepturi
                         ratione earum rem magnam natus cupiditate sint dolorum quam fugiat ducimus nobis, adipisci, quis
                         voluptatem at perspiciatis.</p>
-                    <a class="btn btn-branding navigation-link" title="To my Gallery" href="#">See more in my gallery</a>
+                    <a class="btn btn-branding navigation-link" title="To my Gallery" href="#">See more in my
+                        gallery</a>
                 </div>
                 <div class="row">
                     <div class="col-sm-6 mt-5">
@@ -84,10 +91,12 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore corrupti provident labore
                             assumenda blanditiis libero vel quisquam illum? Corporis vitae ducimus commodi fugiat natus
                             aut corrupti quam provident dignissimos recusandae!</p>
-                        <a class="btn btn-branding navigation-link" title="To my Gallery" href="#">See more in my gallery</a>
+                        <a class="btn btn-branding navigation-link" title="To my Gallery" href="#">See more in my
+                            gallery</a>
                     </div>
                     <div class="col-sm-6 mt-5">
-                        <img class="img-fluid m-3 d-none d-sm-block img-power" src="/src/images/power.jpg" alt="Power-of-Spirit">
+                        <img class="img-fluid m-3 d-none d-sm-block img-power" src="/src/images/power.jpg"
+                            alt="Power-of-Spirit">
                     </div>
                 </div>
                 <div class="row">
@@ -102,7 +111,8 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illum animi accusamus natus
                             aliquam officiis fuga ex nemo eaque. Aut qui assumenda recusandae reprehenderit rem ducimus,
                             repellendus nesciunt tempore sit.</p>
-                        <a class="btn btn-branding navigation-link" title="To my Gallery" href="#">See more in my gallery</a>
+                        <a class="btn btn-branding navigation-link" title="To my Gallery" href="#">See more in my
+                            gallery</a>
                     </div>
                 </div>
 
@@ -111,15 +121,16 @@
     </section>
     <footer class="mt-5">
         <div class="container">
-        <div class="contaner d-flex justify-content-between">
-            
-            <div class="social-media-links">
-            <a href="#" title="Facebook"><i class="fa-brands fa-square-facebook m-1" style="color: #fff;"></i></a>
-            <a href="#" title="Instagram"><i class="fa-brands fa-instagram m-1" style="color: #fff;"></i></a>
-            <a href="#" title="Telegram"><i class="fa-brands fa-telegram m-1" style="color: #fff;"></i></a>
+            <div class="contaner d-flex justify-content-between">
+
+                <div class="social-media-links">
+                    <a href="#" title="Facebook"><i class="fa-brands fa-square-facebook m-1"
+                            style="color: #fff;"></i></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-instagram m-1" style="color: #fff;"></i></a>
+                    <a href="#" title="Telegram"><i class="fa-brands fa-telegram m-1" style="color: #fff;"></i></a>
+                </div>
+                <span>Coded by Khanina Nataliia </span>
             </div>
-            <span>Coded by Khanina Nataliia </span>
-        </div>
         </div>
     </footer>
 </body>
