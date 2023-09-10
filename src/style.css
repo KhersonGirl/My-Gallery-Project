@@ -7,28 +7,41 @@
 body {
     background: var(--primery-color);
 }
+h1,
+h2,
+h3,
+p,
+a,
+span  {
+    color: #fff !important; 
+    text-align: center;
+}
 h1 {
 font-family: 'Roboto', sans-serif;
 font-size: 72px;
 }
 h2 {
-    font-size: 24px;
+    font-size: 26px;
 }
-h1,h2,h3,p, a  {
-    margin: 10px;
-    color: #fff !important; 
-    text-align: center;
-}
+
 
 p {
     font-family:'Dancing Script', cursive;
     font-size: 20px;
     columns: #fff;
     line-height: 1.5;
+    margin: 15px;
 }
 img {
     border-radius: 10px;
     box-shadow: var(--box-shadow);
+    }
+i {
+    font-size: 16px;
+}
+footer span {
+    font-size: 14px;
+    font-family: monospace;
 }
 .hero {
     padding: 100px;
@@ -36,6 +49,9 @@ img {
     background-image: url("/src/images/assemblagePoint.jpg");
     background-position: center;
     background-repeat: none;
+}
+.start-link:hover {
+    background-color: var(--primery-color);
 }
 
 .img-earth {
@@ -59,5 +75,9 @@ img {
 @media (max-width:500px) {
     h1 {
         font-size: 46px;
+    
+    }
+    .navigation-link {
+        max-width: 100%;
     }
 }
