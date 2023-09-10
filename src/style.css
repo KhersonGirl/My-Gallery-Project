@@ -1,26 +1,39 @@
 body {
-    background: #939393;
+    background: #464242;
 }
 h1 {
 font-family: 'Roboto', sans-serif;
 font-size: 72px;
 }
 h2 {
-    font-size: 18px;
+    font-size: 24px;
 }
 h1,h2,h3,p, a  {
-
+    margin: 10px;
   color: #fff !important; 
+  text-align: center;
 }
 
 p {
     font-family:'Dancing Script', cursive;
-    font-size: 18px;
+    font-size: 20px;
     columns: #fff;
+}
+img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 .hero {
     padding: 100px;
     text-align: center;
     background-image: url("/src/images/assemblagePoint.jpg");
     background-position: center;
+    background-repeat: none;
+}
+
+.img-earth {
+    max-width: 75%;
+}
+.img-connection {
+    max-width: 75%;
 }
