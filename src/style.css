@@ -1,5 +1,7 @@
 :root {
     --primery-color: #202020;
+    --branding-color: #f65282;
+    --secondary-font: font-family: 'Roboto', sans-serif;
     --box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 
 }
@@ -17,11 +19,19 @@ span  {
     text-align: center;
 }
 h1 {
-font-family: 'Roboto', sans-serif;
+font-family: var(--secondary-font);
 font-size: 72px;
+
 }
 h2 {
+    font-family: var(--secondary-font);
     font-size: 26px;
+}
+h4 {
+    font-family: var(--secondary-font);
+    color: var(--branding-color);
+    font-size: 18px;
+
 }
 
 
@@ -72,12 +82,36 @@ footer span {
 .navigation-link:hover {
     background: gray;
 }
+.myName {
+    text-align: start;
+}
+.contact-link {
+    border: solid 1px var(--branding-color);
+    border-radius: 18px;
+}
+.myPic {
+    
+    display: block;
+    margin: 30px auto;
+}
 @media (max-width:500px) {
     h1 {
         font-size: 46px;
+        text-align: center !important;
     
     }
     .navigation-link {
         max-width: 100%;
     }
+     h1, h4, .contact-link, .social-media-links {
+        text-align: center !important;
+        display: block;
+        
+    }
+}
+@media (min-width:800px) {
+    .myPic {
+        max-width: 400px;
+    }
+    
 }
