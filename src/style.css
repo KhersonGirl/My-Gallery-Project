@@ -1,7 +1,7 @@
 :root {
     --primery-color: #202020;
     --branding-color: #f65282;
-    --secondary-font: font-family: 'Roboto', sans-serif;
+    --primary-font: font-family: 'Roboto', sans-serif;
     --box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 
 }
@@ -9,6 +9,7 @@
 body {
     background: var(--primery-color);
 }
+
 h1,
 h2,
 h3,
@@ -18,17 +19,19 @@ span  {
     color: #fff !important; 
     text-align: center;
 }
+
 h1 {
-font-family: var(--secondary-font);
+font-family: var(--primary-font);
 font-size: 72px;
 
 }
 h2 {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     font-size: 26px;
 }
+
 h4 {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     color: var(--branding-color);
     font-size: 18px;
 
@@ -42,17 +45,24 @@ p {
     line-height: 1.5;
     margin: 15px;
 }
+
 img {
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     }
+
+
 i {
     font-size: 16px;
 }
+
+
 footer span {
     font-size: 14px;
     font-family: monospace;
 }
+
+
 .hero {
     padding: 100px;
     text-align: center;
@@ -60,6 +70,7 @@ footer span {
     background-position: center;
     background-repeat: none;
 }
+
 .start-link:hover {
     background-color: var(--primery-color);
 }
@@ -106,9 +117,10 @@ footer span {
      h1, h4, .contact-link, .social-media-links {
         text-align: center !important;
         display: block;
-        
     }
+   
 }
+    
 @media (min-width:800px) {
     .myPic {
         max-width: 400px;
