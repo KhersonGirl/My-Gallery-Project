@@ -50,9 +50,8 @@ p {
 img {
     border-radius: 10px;
     box-shadow: var(--box-shadow);
-    max-height: 400px;
-    max-width: 500px;
-    }
+    
+ }
 
 
 i {
@@ -117,10 +116,15 @@ footer span {
     display: block;
     margin: 30px auto;
 }
-.point  {
-    display: block;
-    margin: 20px auto;
+.gallery-section img {
+   max-width: 500px;
+   max-height: 400px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
 }
+
+
 
 @media (max-width:576px) {
    
