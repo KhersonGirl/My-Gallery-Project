@@ -123,7 +123,10 @@ footer span {
    margin-bottom: 30px;
 
 }
-
+.gallery-section p {
+    margin: 0;
+    padding: 0;
+}
 
 
 @media (max-width:576px) {
@@ -142,6 +145,11 @@ footer span {
     .navigation-link {
         max-width: 100%;
     }
+    .gallery-section img {
+        max-width: 400px;   
+        max-height: 350px;
+    }
+
    
 }
     
