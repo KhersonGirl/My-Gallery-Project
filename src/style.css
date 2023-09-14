@@ -8,6 +8,7 @@
 
 body {
     background: var(--primery-color);
+    min-height: 800px;
 }
 
 h1,
@@ -33,14 +34,14 @@ h2 {
 h4 {
     font-family: var(--primary-font);
     color: var(--branding-color);
-    font-size: 18px;
+    font-size: 16px;
 
 }
 
 
 p {
     font-family:'Dancing Script', cursive;
-    font-size: 20px;
+    font-size: 18px;
     columns: #fff;
     line-height: 1.5;
     margin: 15px;
@@ -62,6 +63,14 @@ footer span {
     font-family: monospace;
 }
 
+    .wrapper {
+        min-height: 800px;
+        display: flex;  
+        flex-direction: column;
+    }
+    .about-section {
+        flex: 1 1 auto;
+    }
 
 .hero {
     padding: 100px;
@@ -69,6 +78,9 @@ footer span {
     background-image: url("/src/images/assemblagePoint.jpg");
     background-position: center;
     background-repeat: none;
+}
+.navbar-brand {
+    font-size: 14px;
 }
 
 .start-link:hover {
@@ -99,31 +111,35 @@ footer span {
 .contact-link {
     border: solid 1px var(--branding-color);
     border-radius: 18px;
+    font-size: 14px;
 }
 .myPic {
-    
+   
     display: block;
     margin: 30px auto;
 }
-@media (max-width:500px) {
+
+@media (max-width:576px) {
+   
     h1 {
         font-size: 46px;
         text-align: center !important;
     
     }
-    .navigation-link {
-        max-width: 100%;
-    }
-     h1, h4, .contact-link, .social-media-links {
+    
+    h1, h4, .contact-link, .social-media-links {
         text-align: center !important;
         display: block;
+    }
+    
+    .navigation-link {
+        max-width: 100%;
     }
    
 }
     
 @media (min-width:800px) {
     .myPic {
-        max-width: 400px;
+        max-width: 350px;
     }
-    
 }
