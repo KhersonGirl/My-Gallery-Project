@@ -68,7 +68,9 @@ footer span {
         display: flex;  
         flex-direction: column;
     }
-    .about-section {
+    .about-section,
+    .gallery-section,
+    .drscription-section {
         flex: 1 1 auto;
     }
 
@@ -126,7 +128,7 @@ footer span {
         text-align: center !important;
     
     }
-    
+
     h1, h4, .contact-link, .social-media-links {
         text-align: center !important;
         display: block;
