@@ -1,14 +1,14 @@
 :root {
     --primery-color: #202020;
     --branding-color: #f65282;
-    --primary-font: font-family: 'Roboto', sans-serif;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Dancing Script', cursive;
     --box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 
 }
 
 body {
     background: var(--primery-color);
-    min-height: 700px;
 }
 
 h1,
@@ -40,7 +40,7 @@ h4 {
 
 
 p {
-    font-family:'Dancing Script', cursive;
+    font-family: var(--secondary-font);
     font-size: 18px;
     columns: #fff;
     line-height: 1.5;
@@ -62,7 +62,7 @@ i {
 
 figcaption {
     margin: auto 0 ;
-    font-family:'Dancing Script', cursiv;
+    font-family:var(--secondary-font);
     font-size: 20px;
     background: #3b3b3b;
     
@@ -138,12 +138,16 @@ footer span {
     margin: 0;
     padding: 0;
 }
+.contact-section span {
+    font-family: var(--primary-font);
+}
 
 .contact-footer {
     background-color: #3b3b3b;
     height: 60px;
 
 }
+
 
 
 @media (max-width:576px) {
