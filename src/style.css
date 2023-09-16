@@ -8,7 +8,7 @@
 
 body {
     background: var(--primery-color);
-    min-height: 800px;
+    min-height: 700px;
 }
 
 h1,
@@ -80,7 +80,9 @@ footer span {
     }
     .about-section,
     .gallery-section,
-    .drscription-section {
+    .drscription-section,
+    .contact-section
+    {
         flex: 1 1 auto;
     }
 
@@ -135,6 +137,12 @@ footer span {
 .gallery-section p {
     margin: 0;
     padding: 0;
+}
+
+.contact-footer {
+    background-color: #3b3b3b;
+    height: 60px;
+
 }
 
 
