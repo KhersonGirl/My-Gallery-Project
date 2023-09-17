@@ -187,3 +187,9 @@ footer span {
         font-size: 18px;
     }
 }
+@media (max-width:375px) {
+    .wrapper {
+        margin: 0;
+        padding: 0;
+    }
+}
